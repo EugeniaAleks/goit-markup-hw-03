@@ -1,0 +1,151 @@
+:root {
+  --main-text-color: #434455;
+  --secondary-text-color: #2e2f42;
+  --accent-color: #4d5ae5;
+  --active-color: #404bbf;
+  --dark-bg-text-color: #ffffff;
+  --footer-text-color: #f4f4fd;
+  --main-bg-color: #ffffff;
+  --secondary-bg-color: #f4f4fd;
+  --dark-bg-color: #2e2f42;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--main-text-color);
+  text-align: center;
+  line-height: 1.5;
+
+  text-transform: capitalize;
+  background-color: var(--main-bg-color);
+}
+
+button {
+  font: inherit;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  font-style: inherit;
+  color: inherit;
+}
+
+.section-title {
+  color: var(--secondary-text-color);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+}
+
+.section-item-title {
+  color: var(--secondary-text-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.section-item-text {
+  text-transform: none;
+  letter-spacing: 0.02em;
+}
+
+/* ====================== header-styles ================ */
+
+.logo-link {
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--accent-color);
+}
+
+.header-logo {
+  color: var(--secondary-text-color);
+}
+
+.header-nav-link {
+  color: var(--secondary-text-color);
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+.header-nav-link:hover,
+.header-nav-link:focus,
+.header-nav-link:active {
+  color: var(--active-color);
+}
+
+.header-contacts-link {
+  letter-spacing: 0.02em;
+}
+
+.header-contacts-link:hover,
+.header-contacts-link:focus,
+.header-contacts-link:active {
+  color: var(--active-color);
+}
+
+/* ==================== hero ================== */
+
+.hero {
+  background-color: var(--dark-bg-color);
+}
+
+.hero-title {
+  color: var(--dark-bg-text-color);
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+
+.hero-button {
+  border: none;
+  color: var(--dark-bg-text-color);
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  background-color: var(--accent-color);
+}
+
+.hero-button:hover,
+.hero-button:focus,
+.hero-button:active {
+  background-color: var(--active-color);
+}
+
+/* ====================== advantages =================== */
+
+/* ====================== team ===================== */
+
+.team {
+  background-color: var(--secondary-bg-color);
+}
+
+.team-item {
+  background-color: var(--main-bg-color);
+}
+
+/* ====================== footer =================== */
+
+.footer {
+  background-color: var(--dark-bg-color);
+}
+
+.footer-logo {
+  color: var(--footer-text-color);
+}
+
+.footer-text {
+  color: var(--footer-text-color);
+}
