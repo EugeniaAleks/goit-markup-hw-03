@@ -123,7 +123,7 @@ a {
 
 .header-nav {
   display: flex;
-  gap: 76px;
+  /* gap: 76px; */
   align-items: center;
 }
 
@@ -131,6 +131,7 @@ a {
   display: flex;
   gap: 40px;
   align-items: center;
+  margin-left: 76px;
 }
 
 .header-contacts-list {
@@ -182,14 +183,15 @@ a {
 
 .hero {
   background-color: var(--dark-bg-color);
-}
-
-.hero-wraper {
-  padding: 188px 316px;
+  padding: 188px 0;
 }
 
 .hero-title {
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 48px;
+
+  max-width: 496px;
   color: var(--dark-bg-text-color);
   font-size: 56px;
   font-weight: 700;
@@ -198,6 +200,8 @@ a {
 }
 
 .hero-button {
+  display: block;
+  margin: 0 auto;
   padding: 16px 32px;
   border-radius: 4px;
   border: none;
