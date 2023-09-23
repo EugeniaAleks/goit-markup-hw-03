@@ -22,59 +22,63 @@
   </head>
 
   <body>
-    <header class="header section">
+    <header class="header">
       <div class="container">
-        <nav class="header-nav">
-          <a class="logo-link link" href="./index.html"
-            >Web<span class="header-logo">Studio</span></a
-          >
-          <ul class="header-nav-list list">
-            <li class="header-nav-item">
-              <a class="header-nav-link link" href="./index.html">Studio</a>
-            </li>
+        <div class="header-wraper">
+          <nav class="header-nav">
+            <a class="logo-link link" href="./index.html"
+              >Web<span class="header-logo">Studio</span></a
+            >
+            <ul class="header-nav-list list">
+              <li class="header-nav-item">
+                <a class="header-nav-link link" href="./index.html">Studio</a>
+              </li>
 
-            <li class="header-nav-item">
-              <a class="header-nav-link link" href="">Portfolio</a>
-            </li>
+              <li class="header-nav-item">
+                <a class="header-nav-link link" href="">Portfolio</a>
+              </li>
 
-            <li class="header-nav-item">
-              <a class="header-nav-link link" href="">Contacts</a>
-            </li>
-          </ul>
-        </nav>
-        <address class="header-contacts link">
-          <ul class="header-contacts-list list">
-            <li class="header-contacts-item">
-              <a
-                class="header-contacts-link link"
-                href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
-            </li>
+              <li class="header-nav-item">
+                <a class="header-nav-link link" href="">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <address class="header-contacts link">
+            <ul class="header-contacts-list list">
+              <li class="header-contacts-item">
+                <a
+                  class="header-contacts-link link"
+                  href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
 
-            <li class="header-contacts-item">
-              <a class="header-contacts-link link" href="tel:+110001111111"
-                >+11 (000) 111-11-11</a
-              >
-            </li>
-          </ul>
-        </address>
+              <li class="header-contacts-item">
+                <a class="header-contacts-link link" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
       </div>
     </header>
 
     <main>
-      <section class="hero section">
+      <section class="hero">
         <div class="container">
-          <h1 class="hero-title">Effective solutions for your business</h1>
-          <button class="hero-button button" type="button">
-            Order Service
-          </button>
+          <div class="hero-wraper">
+            <h1 class="hero-title">Effective solutions for your business</h1>
+            <button class="hero-button button" type="button">
+              Order Service
+            </button>
+          </div>
         </div>
       </section>
 
       <section class="advantages section">
         <div class="container">
-          <h2 hidden>Our advantages and principles</h2>
+          <h2 class="visually-hidden">Our advantages and principles</h2>
           <ul class="advantages-list list">
             <li class="advantages-item">
               <h3 class="advantages-item-title section-item-title">Strategy</h3>
@@ -132,14 +136,17 @@
           <ul class="team-list list">
             <li class="team-item">
               <img
+                c
                 class="team-item-img"
                 src="./images/ourteam1.jpg"
                 alt="Mark Guerrero"
                 width="264"
                 height="260"
               />
-              <h3 class="section-item-title">Mark Guerrero</h3>
-              <p class="section-item-text">Product Designer</p>
+              <div class="team-item-wraper">
+                <h3 class="section-item-title">Mark Guerrero</h3>
+                <p class="section-item-text">Product Designer</p>
+              </div>
             </li>
 
             <li class="team-item">
@@ -150,8 +157,10 @@
                 width="264"
                 height="260"
               />
-              <h3 class="section-item-title">Tom Ford</h3>
-              <p class="section-item-text">Frontend Developer</p>
+              <div class="team-item-wraper">
+                <h3 class="section-item-title">Tom Ford</h3>
+                <p class="section-item-text">Frontend Developer</p>
+              </div>
             </li>
 
             <li class="team-item">
@@ -162,8 +171,10 @@
                 width="264"
                 height="260"
               />
-              <h3 class="section-item-title">Camila Garcia</h3>
-              <p class="section-item-text">Marketing</p>
+              <div class="team-item-wraper">
+                <h3 class="section-item-title">Camila Garcia</h3>
+                <p class="section-item-text">Marketing</p>
+              </div>
             </li>
 
             <li class="team-item">
@@ -174,8 +185,10 @@
                 width="264"
                 height="260"
               />
-              <h3 class="section-item-title">Daniel Wilson</h3>
-              <p class="section-item-text">UI Designer</p>
+              <div class="team-item-wraper">
+                <h3 class="section-item-title">Daniel Wilson</h3>
+                <p class="section-item-text">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -192,10 +205,12 @@
                 alt="Banking App Interface"
                 width="360"
               />
-              <h3 class="portfolio-item-title section-item-title">
-                Banking App
-              </h3>
-              <p class="portfolio-item-text section-item-text">App</p>
+              <div class="portfolio-wraper">
+                <h3 class="portfolio-item-title section-item-title">
+                  Banking App
+                </h3>
+                <p class="portfolio-item-text section-item-text">App</p>
+              </div>
             </li>
 
             <li class="portfolio-item">
@@ -205,10 +220,12 @@
                 alt="The phone reads QR-code for Cashless Payment"
                 width="360"
               />
-              <h3 class="portfolio-item-title section-item-title">
-                Cashless Payment
-              </h3>
-              <p class="portfolio-item-text section-item-text">Marketing</p>
+              <div class="portfolio-wraper">
+                <h3 class="portfolio-item-title section-item-title">
+                  Cashless Payment
+                </h3>
+                <p class="portfolio-item-text section-item-text">Marketing</p>
+              </div>
             </li>
 
             <li class="portfolio-item">
@@ -218,10 +235,12 @@
                 alt="Desktop and phone screen with Meditation App"
                 width="360"
               />
-              <h3 class="portfolio-item-title section-item-title">
-                Meditation App
-              </h3>
-              <p class="portfolio-item-text section-item-text">App</p>
+              <div class="portfolio-wraper">
+                <h3 class="portfolio-item-title section-item-title">
+                  Meditation App
+                </h3>
+                <p class="portfolio-item-text section-item-text">App</p>
+              </div>
             </li>
 
             <li class="portfolio-item">
@@ -231,10 +250,12 @@
                 alt="hands on the steering wheel, next to the phone with an open app"
                 width="360"
               />
-              <h3 class="portfolio-item-title section-item-title">
-                Taxi Service
-              </h3>
-              <p class="portfolio-item-text section-item-text">Marketing</p>
+              <div class="portfolio-wraper">
+                <h3 class="portfolio-item-title section-item-title">
+                  Taxi Service
+                </h3>
+                <p class="portfolio-item-text section-item-text">Marketing</p>
+              </div>
             </li>
 
             <li class="portfolio-item">
@@ -244,10 +265,12 @@
                 alt="Screen Illustrations/moon"
                 width="360"
               />
-              <h3 class="portfolio-item-title section-item-title">
-                Screen Illustrations
-              </h3>
-              <p class="portfolio-item-text section-item-text">Design</p>
+              <div class="portfolio-wraper">
+                <h3 class="portfolio-item-title section-item-title">
+                  Screen Illustrations
+                </h3>
+                <p class="portfolio-item-text section-item-text">Design</p>
+              </div>
             </li>
 
             <li class="portfolio-item">
@@ -257,17 +280,19 @@
                 alt="Girl with glasses looks at the phone"
                 width="360"
               />
-              <h3 class="portfolio-item-title section-item-title">
-                Online Courses
-              </h3>
-              <p class="portfolio-item-text section-item-text">Marketing</p>
+              <div class="portfolio-wraper">
+                <h3 class="portfolio-item-title section-item-title">
+                  Online Courses
+                </h3>
+                <p class="portfolio-item-text section-item-text">Marketing</p>
+              </div>
             </li>
           </ul>
         </div>
       </section>
     </main>
 
-    <footer class="footer section">
+    <footer class="footer">
       <div class="container">
         <a class="logo-link link" href="./index.html"
           >Web<span class="footer-logo">Studio</span></a
